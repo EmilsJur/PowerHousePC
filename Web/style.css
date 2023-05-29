@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+main section h1 {
+	font-size: 46px;
+	font-family: Courier New, monospace;
+	margin-bottom: 10px;
+}
+
+main section p {
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+main {
+	font-family: Montserrat, Arial, sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.banner {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.banner img {
+	max-width: 100%;
+	height: auto;
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.computer {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.computer h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+.computer img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.price {
+	font-size: 24px;
+	font-weight: bold;
+	color: #00bfff;
+	margin-top: 10px;
+}
+
+/* New About Us Section Styles */
+
+.about-section {
+	background-color: #f7f7f7;
+	padding: 50px;
+	text-align: center;
+}
+
+.about-section h2 {
+	font-size: 36px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+.about-section p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.about-contact {
+	margin-top: 50px;
+}
+
+.about-contact p {
+	margin-bottom: 10px;
+}
+
+.about-contact .phone {
+	font-size: 24px;
+	color: #333;
+}
+
+.about-contact .email {
+	font-size: 18px;
+	color: #777;
+}
+
